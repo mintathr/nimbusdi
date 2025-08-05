@@ -2,6 +2,26 @@
 @section('title', 'Enterprise Asset Management')
 @section('subtitle', 'Enterprise Asset Management')
 @section('content')
+
+<style>
+  .iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Rasio 16:9 (9/16 = 0.5625) */
+  height: 0;
+  overflow: hidden;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+</style>
 <!-- ======= Services =======-->
 <section class="section first-section services__v1-prism" id="services">
     <div class="container">
@@ -12,8 +32,13 @@
             </div>
         </div>
         <div class="row"> 
+           
+        <!-- <div class="img-wrap position-relative"><a class="glightbox btn-video" href="https://player.vimeo.com/video/316193229?autoplay=1" data-gallery="video"><span class="btn-video-play"><i class="bi bi-play-btn-fill"></i></span><img class="img-fluid rounded-4" src="{{ url('assets-nova/images/thumbnail_video.jpg') }}" alt="FreeBootstrap.net image placeholder"></a></div> -->
+          
               <div class="col-md-7 mb-5 mb-md-0">
-                    <iframe class="vidyard_iframe" title="HxGN EAM Achieve operational excellence with holistic Asset Management" src="//play.vidyard.com/wwbWyfSmVfDywUjQrVmPYd.html?" width=640 height=360 scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>                  
+              <div class="iframe-container">
+                    <iframe class="vidyard_iframe" title="HxGN EAM Achieve operational excellence with holistic Asset Management" src="//play.vidyard.com/wwbWyfSmVfDywUjQrVmPYd.html?" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>                  
               </div>
               <div class="col-md-5">
                 <div class="row">

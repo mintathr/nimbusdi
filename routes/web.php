@@ -3,11 +3,11 @@
 use App\Http\Controllers\WebNimController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
+/* Route::get('/', function () {
     return view('welcome');
-});
+}); */
 
-Route::get('/web', fn () => view('web-layout.pages.index'))->name('home');
+Route::get('/', fn () => view('web-layout.pages.index'))->name('home');
 Route::get('/cloudsuite-automotive', fn () => view('web-layout.pages.csa'))->name('page.csa');
 Route::get('/cloudsuite-industrial-enterprise', fn () => view('web-layout.pages.csie'))->name('page.csie');
 Route::get('/enterprise-asset-management', fn () => view('web-layout.pages.eam'))->name('page.eam');

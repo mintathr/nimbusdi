@@ -67,11 +67,11 @@
     </div>
 
     <!-- ======= Back to Top =======-->
-    <!-- <button id="back-to-top"><i class="bi bi-arrow-up-short"></i></button> -->
+    <button id="back-to-top"><i class="bi bi-arrow-up-short"></i></button>
     <!-- HTML -->
-<a href="https://wa.me/6285156194815?text=halo%20saya%20ingin%20diberikan%20penawaran%20atas%20produk%20anda" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+<!-- <a href="https://wa.me/6285156194815?text=halo%20saya%20ingin%20diberikan%20penawaran%20atas%20produk%20anda" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
   <img src="{{ url('assets-nova/images/whatsapp.svg') }}" alt="Chat via WhatsApp" width="50" />
-</a>
+</a> -->
 
     <!-- End Back to top-->
 
