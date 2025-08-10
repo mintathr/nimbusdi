@@ -39,7 +39,12 @@
                             </div>
                             <div class="col-md-12">
                                 <label class="mb-2" for="email">Email</label>
-                                <input class="form-control" id="email" type="email" name="email" value="{{ old('email') }}" required="">
+                                <input class="form-control @error('email') is-invalid @enderror" id="email" type="email" name="email" value="{{ old('email') }}" required="">
+                                @error('email')
+                                    <div class="invalid-feedback d-block">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
                             </div>
                         </div>
                         <div class="row gap-3 mb-3">

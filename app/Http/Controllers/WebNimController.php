@@ -18,10 +18,12 @@ class WebNimController extends Controller
                 'phone_number.min'       => 'Minimal 10 angka!',
                 'phone_number.max'       => 'Maximal 13 angka!',
                 'phone_number.numeric'   => 'Format Harus angka!',
+                'email.unique'           => 'You have sent an email before!',
             ];
             
         $request->validate([
             'phone_number'            => 'required|string|min:8|max:13',
+            'email'                   => 'required|string|unique:contacts,email',
         ], $messages);
 
         $contact = Contact::create([
@@ -34,10 +36,10 @@ class WebNimController extends Controller
         ]);
 
         // Kirim email ke admin
-        #Mail::to('angga@nimbusdi.co.id')->send(new AdminNotificationMail($contact));
+        Mail::to('anja@nimbusdi.co.id')->send(new AdminNotificationMail($contact));
 
         // Kirim email ke pengirim
-        #Mail::to($contact->email)->send(new UserNotificationMail($contact));
+        Mail::to($contact->email)->send(new UserNotificationMail($contact));
 
     #return redirect()->route('contact.create')->with('success', 'Pesan Anda sudah dikirim!');
 

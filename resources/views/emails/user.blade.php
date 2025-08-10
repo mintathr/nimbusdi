@@ -1,21 +1,21 @@
 <x-mail::message>
 # Introduction
-Halo {{ $contact['name'] }}
+Hello {{ $contact['name'] }}
 
-Terima kasih telah menghubungi kami. Berikut adalah pesan Anda:
+Thank you for contacting us. We have received your message as follows:
 
 {{ $contact['message'] }}
 
-Kami akan segera membalasnya.
+We will respond to it promptly.
 
 <!-- <x-mail::button :url="''">
 Button Text
 </x-mail::button> -->
 
-Thanks,<br>
-PT Nimbusdi
+Best regards,<br>
+PT Nimbus Dinamis Indonesia
 
-<p style="text-align: center;">
+<!-- <p style="text-align: center;">
     <img src="{{ asset('assets-nova/images/nimbus_logo.jpg') }}" alt="Logo {{ config('app.name') }}" style="height: 80px;">
-</p>
+</p> -->
 </x-mail::message>
