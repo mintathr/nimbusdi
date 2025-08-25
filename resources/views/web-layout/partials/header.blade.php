@@ -2,7 +2,7 @@
     <div class="container d-flex align-items-center justify-content-between">
         <a class="navbar-brand w-auto" href="{{ route('home') }}">
             <img class="logo dark img-fluid pt-2" src="{{ url('assets-nova/images/nimbus_logo.jpg') }}" width="90" height="100" alt="image placeholder">
-        </a><h3 class="pt-2"><font color="#4d83bc"> <b>PT N D I</b></font></h3>
+        </a><h3 class="pt-2"><font color="#4d83bc"> <b>NIMBUS</b></font></h3>
         <div class="offcanvas offcanvas-start w-75" id="fbs__net-navbars" tabindex="-1" aria-labelledby="fbs__net-navbarsLabel">
             <div class="offcanvas-header">
                 <div class="offcanvas-header-logo">

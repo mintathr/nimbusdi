@@ -29,7 +29,7 @@
                     <div class="col-lg-11">
                         <!-- <span class="hero-subtitle text-uppercase" data-aos="fade-up" data-aos-delay="0">Empowering Smart Manufacturing with AI-Driven ERP</span> -->
                         
-                        <p class="hero-description" data-aos="fade-up" data-aos-delay="200">At <font color="#4d83bc"> <b>PT Nimbus Dinamis Indonesia</b></font>, we help manufacturing business unlock the full potential of industry 4.0. Our intelligent ERP solutions are designed to automate operations, improve supply chain efficiency, and connect every aspect of your production process.
+                        <p class="hero-description" data-aos="fade-up" data-aos-delay="200">At <font color="#4d83bc"> <b>PT Nimbus Dinamis Indonesia (NIMBUS)</b></font>, we help manufacturing business unlock the full potential of industry 4.0. Our intelligent ERP solutions are designed to automate operations, improve supply chain efficiency, and connect every aspect of your production process.
                         
                         <br>By integrating <b>AI, IoT and real-time analytics</b>, we deliver a smarter way to manage your factory - increasing visibility, reducing downtime, and driving growth. Step into the future of manufacturing with systems built for speed, scability, and success. 
                         </p>
