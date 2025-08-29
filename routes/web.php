@@ -6,8 +6,12 @@ use Illuminate\Support\Facades\Route;
 /* Route::get('/', function () {
     return view('welcome');
 }); */
+Route::fallback(function () {
+    return view('under-construction');
+});
 
-Route::get('/', fn () => view('web-layout.pages.index'))->name('home');
+
+/* Route::get('/', fn () => view('web-layout.pages.index'))->name('home');
 Route::get('/cloudsuite-automotive', fn () => view('web-layout.pages.csa'))->name('page.csa');
 Route::get('/cloudsuite-industrial-enterprise', fn () => view('web-layout.pages.csie'))->name('page.csie');
 Route::get('/enterprise-asset-management', fn () => view('web-layout.pages.eam'))->name('page.eam');
@@ -19,5 +23,5 @@ Route::get('/local-maintenance-support', fn () => view('web-layout.pages.local_m
 Route::get('/about', fn () => view('web-layout.pages.about'))->name('about');
 Route::get('contact-us', fn () => view('web-layout.pages.contact'))->name('contact');
 
-Route::post('contact-us', [WebNimController::class, 'store'])->name('contact.store');
+Route::post('contact-us', [WebNimController::class, 'store'])->name('contact.store'); */
 
