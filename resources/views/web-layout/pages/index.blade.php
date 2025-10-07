@@ -41,12 +41,14 @@
                                 </svg>
                             </a>
                         </div> -->
-                        <div class="logos" data-aos="fade-up" data-aos-delay="400"><span class="logos-title text-uppercase mb-4 d-block"><!-- Trusted by major companies worldwide --></span>
+                        <!-- <div class="logos" data-aos="fade-up" data-aos-delay="400"><span class="logos-title text-uppercase mb-4 d-block"> --><!-- Trusted by major companies worldwide -->
+
+                        <!-- </span>
                             <div class="logos-images d-flex gap-4 align-items-center">
                                 <img class="img-fluid" src="{{ url('assets-nova/images/infor_logo.svg') }}" alt="Infor" style="width: 110px;">
                                 <img class="img-fluid" src="{{ url('assets-nova/images/hexagon_logo.svg') }}" alt="Hexagon" style="width: 180px;">
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
