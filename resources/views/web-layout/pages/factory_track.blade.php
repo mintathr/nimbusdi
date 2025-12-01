@@ -21,7 +21,7 @@
                 <div class="row"> 
                   <div class="col-sm-11">
                     <div class="img-wrap position-relative">
-                        <a class="glightbox btn-video" href="{{ url('assets-nova/images/infor_factory_track_warehouse_ mobility.mp4') }}" data-gallery="video"><span class="btn-video-play"><i class="bi bi-play-btn-fill"></i></span><img class="img-fluid rounded-4" src="{{ url('assets-nova/images/fac_track_thumbnail.jpg') }}" alt="FreeBootstrap.net image placeholder"></a>
+                        <!-- <a class="glightbox btn-video" href="{{ url('assets-nova/images/infor_factory_track_warehouse_ mobility.mp4') }}" data-gallery="video"><span class="btn-video-play"><i class="bi bi-play-btn-fill"></i></span> --><img class="img-fluid rounded-4" src="{{ url('assets-nova/images/fac_track_thumbnail.jpg') }}" alt="FreeBootstrap.net image placeholder"><!-- </a> -->
                     </div>
                   </div>
                 </div>

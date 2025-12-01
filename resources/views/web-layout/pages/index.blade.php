@@ -122,7 +122,7 @@
               <div class="col-md-6 mb-5 mb-md-0">
                 <div class="row"> 
                   <div class="col-sm-11">
-                    <div class="img-wrap position-relative"><!-- <img class="scribble-1" src="{{ url('assets-nova/images/scribble-1.svg') }}" alt="FreeBootstrap.net image placeholder"><img class="scribble-2" src="{{ url('assets-nova/images/scribble-2.svg') }}" alt="FreeBootstrap.net image placeholder"> --><a class="glightbox btn-video" href="https://player.vimeo.com/video/316193229?autoplay=1" data-gallery="video"><span class="btn-video-play"><i class="bi bi-play-btn-fill"></i></span><img class="img-fluid rounded-4" src="{{ url('assets-nova/images/thumbnail_video.jpg') }}" alt="FreeBootstrap.net image placeholder"></a></div>
+                    <div class="img-wrap position-relative"><!-- <img class="scribble-1" src="{{ url('assets-nova/images/scribble-1.svg') }}" alt="FreeBootstrap.net image placeholder"><img class="scribble-2" src="{{ url('assets-nova/images/scribble-2.svg') }}" alt="FreeBootstrap.net image placeholder"> --><!-- <a class="glightbox btn-video" href="https://player.vimeo.com/video/316193229?autoplay=1" data-gallery="video"><span class="btn-video-play"><i class="bi bi-play-btn-fill"></i></span> --><img class="img-fluid rounded-4" src="{{ url('assets-nova/images/thumbnail_video.jpg') }}" alt="FreeBootstrap.net image placeholder"><!-- </a> --></div>
                   </div>
                 </div>
               </div>
