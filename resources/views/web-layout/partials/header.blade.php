@@ -16,26 +16,30 @@
                     <li class="nav-item"><a class="nav-link scroll-link {{ request()->is('web') ? 'active' : '' }}" aria-current="page" href="{{ route('home') }}">Home</a></li>
                     <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Solutions <i class="bi bi-chevron-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li class="nav-item dropstart"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Enterprise Resource Planning<i class="bi bi-chevron-right"></i></a>
+                            <!-- <li class="nav-item dropstart"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Enterprise Resource Planning<i class="bi bi-chevron-right"></i></a>
                                 <ul class="dropdown-menu">
                                     <li><a class="nav-link scroll-link dropdown-item" href="{{ route('page.csie') }}">Cloudsuite Industrial Enterprise</a></li>
                                     <li><a class="nav-link scroll-link dropdown-item" href="{{ route('page.csa') }}">Cloudsuite Automotive</a></li>
                                 </ul>
+                            </li> -->
+                            <li>
+                                <a class="nav-link scroll-link dropdown-item" href="#">Enterprise Resource Planning</a>
                             </li>
                             <li>
-                                <a class="nav-link scroll-link dropdown-item" href="{{ route('page.eam') }}">Enterprise Asset Management</a>
+                                <a class="nav-link scroll-link dropdown-item" href="#">Enterprise Asset Management</a>
                             </li>
                             <li>
-                                <a class="nav-link scroll-link dropdown-item" href="{{ route('page.mes') }}">Manufacturing Execution System</a>
+                                <a class="nav-link scroll-link dropdown-item" href="#">Manufacturing Execution System</a>
                             </li>
                             <li>
-                                <a class="nav-link scroll-link dropdown-item" href="{{ route('page.factory.track') }}">Factory Track</a>
+                                <!-- <a class="nav-link scroll-link dropdown-item" href="{{ route('page.factory.track') }}">Factory Track</a> -->
+                                <a class="nav-link scroll-link dropdown-item" href="#">Barcode Solution</a>
                             </li>
                             <li class="nav-item dropstart"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Services<i class="bi bi-chevron-right"></i></a>
                                 <ul class="dropdown-menu">
                                     <li><a class="nav-link scroll-link dropdown-item" href="{{ route('page.erp.implemen') }}">ERP Implementation</a></li>
-                                    <li><a class="nav-link scroll-link dropdown-item" href="{{ route('page.cloud.migration') }}">Cloud Migration Services</a></li>
-                                    <li><a class="nav-link scroll-link dropdown-item" href="{{ route('page.local.maintenance') }}">Local Maintenance Support</a></li>
+                                    <li><a class="nav-link scroll-link dropdown-item" href="#">Cloud Migration Services</a></li>
+                                    <li><a class="nav-link scroll-link dropdown-item" href="#">Local Maintenance Support</a></li>
                                 </ul>
                             </li>
                         </ul>

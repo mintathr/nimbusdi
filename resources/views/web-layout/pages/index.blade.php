@@ -116,13 +116,17 @@
 
 
 <!-- ======= About =======-->
-        <section class="section about__v2">
+        <!-- <section class="section about__v2">
           <div class="container">
             <div class="row"> 
               <div class="col-md-6 mb-5 mb-md-0">
                 <div class="row"> 
                   <div class="col-sm-11">
-                    <div class="img-wrap position-relative"><!-- <img class="scribble-1" src="{{ url('assets-nova/images/scribble-1.svg') }}" alt="FreeBootstrap.net image placeholder"><img class="scribble-2" src="{{ url('assets-nova/images/scribble-2.svg') }}" alt="FreeBootstrap.net image placeholder"> --><!-- <a class="glightbox btn-video" href="https://player.vimeo.com/video/316193229?autoplay=1" data-gallery="video"><span class="btn-video-play"><i class="bi bi-play-btn-fill"></i></span> --><img class="img-fluid rounded-4" src="{{ url('assets-nova/images/thumbnail_video.jpg') }}" alt="FreeBootstrap.net image placeholder"><!-- </a> --></div>
+                    <div class="img-wrap position-relative"> -->
+                      <!-- <img class="scribble-1" src="{{ url('assets-nova/images/scribble-1.svg') }}" alt="FreeBootstrap.net image placeholder"><img class="scribble-2" src="{{ url('assets-nova/images/scribble-2.svg') }}" alt="FreeBootstrap.net image placeholder"> --><!-- <a class="glightbox btn-video" href="https://player.vimeo.com/video/316193229?autoplay=1" data-gallery="video"><span class="btn-video-play"><i class="bi bi-play-btn-fill"></i></span> -->
+                       <!-- <img class="img-fluid rounded-4" src="{{ url('assets-nova/images/thumbnail_video.jpg') }}" alt="FreeBootstrap.net image placeholder"> -->
+                      <!-- </a> -->
+                      <!-- </div>
                   </div>
                 </div>
               </div>
@@ -130,23 +134,23 @@
                 <div class="row">
                   <div class="col-md-12">
                     <h2 class="fw-bold mb-4">Infor CloudSuite Industrial Enterprise</h2>
-                    <p class="mb-4">Industrial manufacturers need innovation to tame complexity and maintain their competitive edge. The beginning of a new manufacturing era is an opportune time for industrial manufacturers to analyze their current business processes and uncover areas where new software and technologies will unlock efficiencies that lead to growth. Transform your business with Infor CloudSuite Industrial Enterprise, a versatile cloud service built to increase industrial manufacturing productivity, meet customer demands, and bring products to market ahead of the competition.</p>
+                    <p class="mb-4">Industrial manufacturers need innovation to tame complexity and maintain their competitive edge. The beginning of a new manufacturing era is an opportune time for industrial manufacturers to analyze their current business processes and uncover areas where new software and technologies will unlock efficiencies that lead to growth. Transform your business with Infor CloudSuite Industrial Enterprise, a versatile cloud service built to increase industrial manufacturing productivity, meet customer demands, and bring products to market ahead of the competition.</p> -->
                     <!-- <p class="mb-0"> <a class="btn btn-primary" href="page-contact.html">Contact us</a></p> -->
-                  </div>
+                  <!-- </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
+        </section> -->
         <!-- End About -->    
 
-<style>
+<!-- <style>
 .custom-img {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
 }
-</style>
+</style> -->
  <!-- ======= Team =======-->
         <section class="section team" id="team">
           <div class="container">

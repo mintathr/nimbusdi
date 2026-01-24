@@ -21,18 +21,18 @@
                         <div class="col-md-7">
                             <div class="row g-2">
                                 <div class="col-md-12 col-lg-8 mb-4 mb-lg-0">
-                                    <h3 class="mb-3">Brochure</h3>
+                                    <!-- <h3 class="mb-3">Brochure</h3>
                                     <ul class="list-unstyled">
                                         <li><a href="#"><i class="bi bi-file-earmark-pdf-fill fs-4 pdf-icon"></i> Infor CloudSuite Automotive</a></li>
                                         <li><a href="#"><i class="bi bi-file-earmark-pdf-fill fs-4 pdf-icon"></i> Infor CloudSuite Industrial Enterprise</a></li>
                                         <li><a href="#"><i class="bi bi-file-earmark-pdf-fill fs-4 pdf-icon"></i> Executive Briefs</a></li>
-                                        <li><a href="#"><i class="bi bi-file-earmark-pdf-fill fs-4 pdf-icon"></i> Hexagon ALI-HxGN EAM</a></li>
+                                        <li><a href="#"><i class="bi bi-file-earmark-pdf-fill fs-4 pdf-icon"></i> Hexagon ALI-HxGN EAM</a></li> -->
                                         <!-- <li><a href="{{ url('assets-nova/docs/Infor-CloudSuite-Automotive.pdf') }}" target="_blank"><i class="bi bi-file-earmark-pdf-fill fs-4 pdf-icon"></i> Infor CloudSuite Automotive</a></li>
                                         <li><a href="{{ url('assets-nova/docs/Infor CloudSuite Industrial Enterprise-Brochure-English.pdf') }}" target="_blank"><i class="bi bi-file-earmark-pdf-fill fs-4 pdf-icon"></i> Infor CloudSuite Industrial Enterprise</a></li>
                                         <li><a href="{{ url('assets-nova/docs/Digital-threads-keep-manufacturers-and-suppliers-in-sync-to-forge-EV-growth-strategies.pdf') }}" target="_blank"><i class="bi bi-file-earmark-pdf-fill fs-4 pdf-icon"></i> Executive Briefs</a></li>
                                         <li><a href="{{ url('assets-nova/docs/Hexagon-ALI-HxGN-EAM-Overview-Brochure.pdf') }}" target="_blank"><i class="bi bi-file-earmark-pdf-fill fs-4 pdf-icon"></i> Hexagon ALI-HxGN EAM</a></li> -->
-                                    </ul>
-                                </div>
+                                    <!-- </ul>
+                                </div> -->
                                 <!-- <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
                                     <h3 class="mb-3">Accounts</h3>
                                     <ul class="list-unstyled">
