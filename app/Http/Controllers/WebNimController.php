@@ -44,6 +44,6 @@ class WebNimController extends Controller
     #return redirect()->route('contact.create')->with('success', 'Pesan Anda sudah dikirim!');
 
         Alert::toast('Your message has been received, we will contact you soon.', 'success')->width('25rem')->padding('5px');
-        return redirect()->route('home');
+        return redirect()->route('home.tailwind');
     }
 }

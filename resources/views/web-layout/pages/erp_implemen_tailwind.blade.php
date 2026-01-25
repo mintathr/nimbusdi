@@ -24,10 +24,14 @@
   <!-- Content Section -->
   <section class="py-16 px-6 md:px-12 lg:px-20">
     <div class="max-w-4xl mx-auto space-y-6 text-gray-700">
-        <div class="relative"> <img src="{{ asset('assets-nova/images/erp.jpeg') }}" alt="About Nimbus" class="rounded-lg shadow-lg w-full h-auto object-cover"/> <!-- Decorative overlay --> 
-            <div class="absolute inset-0 bg-[#4d83bc] opacity-20 rounded-lg"></div> 
-        </div>
         
+        
+ <div class="max-w-5xl py-8 mx-auto px-6">
+        <img src="{{ asset('assets-nova/images/erp.jpeg') }}" 
+             class="w-full h-[500px] object-cover rounded-3xl shadow-lg" alt="Cover">
+    </div>
+
+
 
       <h2 class="text-2xl font-bold text-[#4d83bc]">E R P Implementation</h2>
       <p>

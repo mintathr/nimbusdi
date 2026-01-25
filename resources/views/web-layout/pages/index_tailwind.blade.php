@@ -117,9 +117,10 @@
 
         <!-- Decorative UI Element -->
         <div class="md:w-1/2 flex justify-center">
-            <div class="relative w-80 h-80 bg-[#4d83bc] rounded-3xl rotate-6 shadow-2xl flex items-center justify-center overflow-hidden" data-aos="zoom-in" data-aos-delay="400">
+            <div class="relative w-80 h-80 bg-blue-600 rounded-3xl rotate-6 shadow-2xl flex items-center justify-center overflow-hidden">
                 <div class="absolute inset-0 bg-gradient-to-tr from-black/20 to-transparent"></div>
                 <div class="text-white text-6xl font-black">nimbus</div>
+                <!-- Animasi Lingkaran Kecil -->
                 <div class="absolute -top-4 -left-4 w-20 h-20 bg-emerald-400 rounded-full blur-xl opacity-50"></div>
             </div>
         </div>
@@ -312,20 +313,36 @@ Kembangan Jakarta Barat 11630</p>
       </div>
 
       <!-- Contact Form -->
-      <form class="bg-white shadow-lg rounded-lg p-6 space-y-4" data-aos="zoom-in" data-aos-delay="300">
+      <form class="bg-white shadow-lg rounded-lg p-6 space-y-4" method="POST" id="contactForm" action="{{ route('contact.store') }}" data-aos="zoom-in" data-aos-delay="300">
+                        @method('post')
+                        @csrf
         <div>
             <!-- <label class="block text-gray-700 mb-2">Name</label> -->
-            <input type="text" class="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#4d83bc]" placeholder="Name"/>
+            <input type="text" class="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#4d83bc]" id="name" name="name" value="{{ old('name') }}" placeholder="Name"/>
         </div>
 
         <div>
             <!-- <label class="block text-gray-700 mb-2">Email</label> -->
-            <input type="email" class="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#4d83bc]" placeholder="Email"/>
+             <input 
+  type="email" 
+  id="email" 
+  name="email" 
+  value="{{ old('email') }}" 
+  placeholder="Email"
+  class="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#4d83bc] 
+         @error('email') border-red-500 focus:ring-red-500 @enderror"
+/>
+
+@error('email')
+  <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+@enderror
+
         </div>
 
         <div class="relative">
-            <select class="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#4d83bc] appearance-none">
-                <option>Select Industry...</option>
+            <select class="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#4d83bc] appearance-none" name="industry" id="letsConnectIndustry">
+                <option selected disabled>Select Industry...</option>
+                <option value="Aerospace &amp; Defense">Industry</option>
             <option value="Manufacturing">Manufacturing</option>
             <option value="Trading">Trading</option>
             <option value="Services">Services</option>
@@ -343,16 +360,19 @@ Kembangan Jakarta Barat 11630</p>
         </div>
         <div>
             <!-- <label class="block text-gray-700 mb-2">Phone Number</label> -->
-            <input type="text" class="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#4d83bc]" placeholder="Phone Number"/>
+            <input type="text" class="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#4d83bc]" id="phone_number" name="phone_number" value="{{ old('phone_number') }}" placeholder="Phone Number"/>
+            @error('phone_number')
+  <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+@enderror
         </div>
         <div>
             <!-- <label class="block text-gray-700 mb-2">Company Name</label> -->
-            <input type="text" class="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#4d83bc]" placeholder="Company Name"/>
+            <input type="text" class="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#4d83bc]" id="company_name" name="company_name" value="{{ old('company_name') }}" placeholder="Company Name"/>
         </div>
 
         <div>
             <!-- <label class="block text-gray-700 mb-2">Message</label> -->
-            <textarea rows="4" class="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#4d83bc]" placeholder="Your Message"></textarea>
+            <textarea rows="4" class="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#4d83bc]" id="message" name="message" placeholder="Your Message"></textarea>
         </div>
                 <button type="submit" class="w-full bg-[#4d83bc] hover:bg-[#3a6a9a] text-white px-6 py-3 rounded-lg font-semibold transition">
             Send Message
