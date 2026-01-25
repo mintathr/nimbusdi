@@ -119,7 +119,7 @@
         <div class="md:w-1/2 flex justify-center">
             <div class="relative w-80 h-80 bg-blue-600 rounded-3xl rotate-6 shadow-2xl flex items-center justify-center overflow-hidden">
                 <div class="absolute inset-0 bg-gradient-to-tr from-black/20 to-transparent"></div>
-                <div class="text-white text-6xl font-black">nimbus</div>
+                <div class="text-white text-6xl font-black">NIMBUS</div>
                 <!-- Animasi Lingkaran Kecil -->
                 <div class="absolute -top-4 -left-4 w-20 h-20 bg-emerald-400 rounded-full blur-xl opacity-50"></div>
             </div>
@@ -304,7 +304,7 @@ Kembangan Jakarta Barat 11630</p>
         </div>
 
         <div class="rounded-lg overflow-hidden shadow" data-aos="fade-left" data-aos-delay="400">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4174403607753!2d106.7643991846231!3d-6.208542525961421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f725fade3b5f%3A0x5c9fc3a22197ede8!2sINFINITI%20OFFICE%2C%20Jl.%20Permata%20Regency%20Jl.%20H.%20Kelik%20No.D%2F37%2C%20RT.1%2FRW.6%2C%20Srengseng%2C%20Kec.%20Kembangan%2C%20Kota%20Jakarta%20Barat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sen!2sid!4v1769260712728!5m2!1sen!2sid" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4174403607753!2d106.7643991846231!3d-6.208542525961421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f725fade3b5f%3A0x5c9fc3a22197ede8!2sINFINITI%20OFFICE%2C%20Jl.%20Permata%20Regency%20Jl.%20H.%20Kelik%20No.D%2F37%2C%20RT.1%2FRW.6%2C%20Srengseng%2C%20Kec.%20Kembangan%2C%20Kota%20Jakarta%20Barat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sen!2sid!4v1769260712728!5m2!1sen!2sid" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
 
 </div>
 

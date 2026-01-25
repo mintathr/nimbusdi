@@ -35,7 +35,7 @@
         </a>
 
         <div class="absolute top-0 left-full ml-1 w-64 bg-white border rounded-lg shadow-lg opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-300">
-          <a href="{{ route('page.erp.implemen.tailwind') }}" class="block px-4 py-2 hover:bg-gray-100 hover:text-[#4d83bc]">ERP Implementation</a>
+          <a href="#" class="block px-4 py-2 hover:bg-gray-100 hover:text-[#4d83bc]">ERP Implementation</a>
           <a href="#" class="block px-4 py-2 hover:bg-gray-100 hover:text-[#4d83bc]">Cloud Migration Services</a>
           <a href="#" class="block px-4 py-2 hover:bg-gray-100 hover:text-[#4d83bc]">Local Maintenance Support</a>
         </div>
@@ -68,7 +68,7 @@
         </button>
         <div id="ind-sub" class="hidden flex-col pl-4 space-y-2 text-xs text-gray-600">
           <a href="#">ERP Implementation</a>
-              <a href="{{ route('page.erp.implemen.tailwind') }}" class="block px-4 py-2 hover:bg-gray-100">ERP Implementation</a>
+              <a href="#" class="block px-4 py-2 hover:bg-gray-100">ERP Implementation</a>
               <a href="#" class="block px-4 py-2 hover:bg-gray-100">Local Maintenance Support</a>
 
           <a href="#">Cloud Migration</a>
