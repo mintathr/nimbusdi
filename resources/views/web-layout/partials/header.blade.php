@@ -2,7 +2,7 @@
     <div class="container d-flex align-items-center justify-content-between">
         <a class="navbar-brand w-auto" href="{{ route('home') }}">
             <img class="logo dark img-fluid pt-2" src="{{ url('assets-nova/images/nimbus_logo.jpg') }}" width="90" height="100" alt="image placeholder">
-        </a><h3 class="pt-2"><font color="#4d83bc"> <b>NIMBUS</b></font></h3>
+        </a><h3 class="mb-0" style="color: #4d83bc; font-weight: 700; margin: 0; padding: 0; line-height: 1; display: flex; align-items: center;">NIMBUS</h3>
         <div class="offcanvas offcanvas-start w-75" id="fbs__net-navbars" tabindex="-1" aria-labelledby="fbs__net-navbarsLabel">
             <div class="offcanvas-header">
                 <div class="offcanvas-header-logo">
@@ -25,18 +25,36 @@
                             <li>
                                 <a class="nav-link scroll-link dropdown-item" href="#">Enterprise Resource Planning</a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a class="nav-link scroll-link dropdown-item" href="#">Enterprise Asset Management</a>
+                            </li> -->
+                            <li class="nav-item dropstart"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Enterprise Asset Management<i class="bi bi-chevron-right"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="nav-link scroll-link dropdown-item" href="{{ route('page.erp.implemen') }}">Octave Attune EAM</a></li>
+                                </ul>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a class="nav-link scroll-link dropdown-item" href="#">Manufacturing Execution System</a>
+                            </li> -->
+                            <li class="nav-item dropstart"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Manufacturing Execution System<i class="bi bi-chevron-right"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="nav-link scroll-link dropdown-item" href="{{ route('page.erp.implemen') }}">Nimbus SF (smart factory)</a></li>
+                                </ul>
                             </li>
                             <li>
                                 <!-- <a class="nav-link scroll-link dropdown-item" href="{{ route('page.factory.track') }}">Factory Track</a> -->
-                                <a class="nav-link scroll-link dropdown-item" href="#">Barcode Solution</a>
+                                <a class="nav-link scroll-link dropdown-item" href="#">Factory Track & Barcode Solution</a>
+                            </li>
+                            
+                            <li>
+                                <a class="nav-link scroll-link dropdown-item" href="#">Artificial Intelligence (AI)</a>
+                            </li>
+                            <li>
+                                <a class="nav-link scroll-link dropdown-item" href="#">Human Resources Information System (HRIS)</a>
                             </li>
                             <li class="nav-item dropstart"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Services<i class="bi bi-chevron-right"></i></a>
                                 <ul class="dropdown-menu">
+                                    <li><a class="nav-link scroll-link dropdown-item" href="#">Business Process & ERP Advisory</a></li>
                                     <li><a class="nav-link scroll-link dropdown-item" href="{{ route('page.erp.implemen') }}">ERP Implementation</a></li>
                                     <li><a class="nav-link scroll-link dropdown-item" href="#">Cloud Migration Services</a></li>
                                     <li><a class="nav-link scroll-link dropdown-item" href="#">Local Maintenance Support</a></li>
