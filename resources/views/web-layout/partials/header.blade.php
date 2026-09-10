@@ -25,20 +25,20 @@
                             <li>
                                 <a class="nav-link scroll-link dropdown-item" href="#">Enterprise Resource Planning</a>
                             </li>
-                            <!-- <li>
+                            <li>
                                 <a class="nav-link scroll-link dropdown-item" href="#">Enterprise Asset Management</a>
-                            </li> -->
-                            <li class="nav-item dropstart"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Enterprise Asset Management<i class="bi bi-chevron-right"></i></a>
+                            </li>
+                            <!-- <li class="nav-item dropstart"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Enterprise Asset Management<i class="bi bi-chevron-right"></i></a>
                                 <ul class="dropdown-menu">
                                     <li><a class="nav-link scroll-link dropdown-item" href="{{ route('page.erp.implemen') }}">Octave Attune EAM</a></li>
                                 </ul>
-                            </li>
+                            </li> -->
                             <!-- <li>
                                 <a class="nav-link scroll-link dropdown-item" href="#">Manufacturing Execution System</a>
                             </li> -->
                             <li class="nav-item dropstart"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Manufacturing Execution System<i class="bi bi-chevron-right"></i></a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="nav-link scroll-link dropdown-item" href="{{ route('page.erp.implemen') }}">Nimbus SF (smart factory)</a></li>
+                                    <li><a class="nav-link scroll-link dropdown-item" href="{{ route('page.mes.nimbus_sf') }}">Nimbus SF (smart factory)</a></li>
                                 </ul>
                             </li>
                             <li>

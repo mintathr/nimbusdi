@@ -5,7 +5,7 @@
 <!-- ======= Services =======-->
 <section class="section first-section services__v1-prism" id="services">
     <div class="container">
-        <div class="row pt-5 mb-5">
+        <div class="row">
             <div class="col-md-8 mx-auto text-center" data-aos="fade-up">
                 <h1 class="display-6 fw-bold mb-3">E R P Implementation</h1>
                 <p class="lead">ERP stands as a pivotal force in the digital transformation of modern businesses.</p>
