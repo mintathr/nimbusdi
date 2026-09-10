@@ -56,7 +56,7 @@
                 <h1 class="display-6 fw-bold mb-3">Nimbus SF (Smart Factory)</h1>
                 <!-- <p class="lead">ERP stands as a pivotal force in the digital transformation of modern businesses.</p> -->
                 <div class="img-wrap position-relative">
-                    <a class="glightbox btn-video nimbus-sf-video" href="{{ asset('storage/sf_vid.mp4') }}" data-gallery="video">
+                    <a class="glightbox btn-video nimbus-sf-video" href="{{ asset('assets-nova/images/sf_vid.mp4') }}" data-gallery="video">
                         <span class="btn-video-play nimbus-sf-play"><i class="bi bi-play-btn-fill"></i></span>
                         <img class="img-fluid rounded-4" src="{{ url('assets-nova/images/sf_thumbnail.png') }}" alt="Nimbus SF video thumbnail">
                     </a>
